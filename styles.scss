@@ -40,6 +40,11 @@ $shadow-hover:1px 1px 5px #bbb,
 1px 3px 7px #bbb;
 
 
+
+
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -134,7 +139,7 @@ body {
 
 
             a {
-                font-size: 25px;
+                font-size: 1.1rem;
                 font-family: $symbol;
                 padding-right: 20px;
                 padding-bottom: 0px;
@@ -208,31 +213,29 @@ body {
                 width: 100%;
                 display: flex;
                 flex-flow: row wrap;
+                height: 500px;
                 background-color: white;
                 color: $black;
                 box-shadow: $shadow;
-
-                .image {
+                height: auto;
+                .image{
                     display: flex;
                     width: 50%;
-                    flex-grow: 1;
-                    height: auto;
                     border-right: 1px dashed $black;
 
-                    img {
+                    .image-one {
+                        display: flex;
                         width: 100%;
-                        height: auto;
-                        flex-grow: 1;
-
-
+                        
                     }
                 }
+                
 
                 .info {
                     display: flex;
                     flex-flow: column wrap;
                     padding: 20px;
-                    width: 40%;
+                    width: 46%;
 
                     .rate {
                         display: flex;
@@ -301,6 +304,8 @@ body {
                         }
                     }
                 }
+
+            
             }
 
             .grid {
@@ -442,6 +447,7 @@ body {
             .btn:hover {
                 border: 2px solid $orange;
                 box-shadow: $shadow-hover;
+                color: $orange;
             }
         }
 
@@ -473,34 +479,16 @@ body {
                         overflow: hidden;
                         margin: 0px auto;
 
-                        .img-one {
-                            width: 152%;
-                            margin-left: -88px;
-                            margin-top: 0px;
-                        }
-
-                        .img-two {
-                            width: 155%;
-                            margin-left: -58px;
-                            margin-top: 0px;
-                        }
-
-                        .img-three {
-                            width: 150%;
-                            margin-left: -44px;
-                            margin-top: 0px;
-                        }
-
-                        .img-four {
-                            width: 150%;
-                            margin-left: -28px;
-                            margin-top: 2px;
+                        .img-cat {
+                            width: 104%;
+                            margin-top: -7px;
+                            margin-left: -5px;
                         }
                     }
 
                     .cat-title {
                         margin-top: 20px;
-                        margin-bottom: 1 0px;
+                        margin-bottom: 10px;
                         font-family: $m-bold;
                         letter-spacing: 1px;
                         font-size: 1.2rem;

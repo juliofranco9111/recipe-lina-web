@@ -145,7 +145,7 @@ body #header #icons {
 }
 
 body #header #icons a {
-  font-size: 25px;
+  font-size: 1.1rem;
   font-family: "web-symbols";
   padding-right: 20px;
   padding-bottom: 0px;
@@ -230,10 +230,12 @@ body .wrap .section .caja {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
+  height: 500px;
   background-color: white;
   color: #555;
   -webkit-box-shadow: 1px 1px 5px #ccc, 1px 2px 5px #ccc, 1px 3px 5px #ccc;
           box-shadow: 1px 1px 5px #ccc, 1px 2px 5px #ccc, 1px 3px 5px #ccc;
+  height: auto;
 }
 
 body .wrap .section .caja .image {
@@ -241,19 +243,14 @@ body .wrap .section .caja .image {
   display: -ms-flexbox;
   display: flex;
   width: 50%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  height: auto;
   border-right: 1px dashed #555;
 }
 
-body .wrap .section .caja .image img {
+body .wrap .section .caja .image .image-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
-  height: auto;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 body .wrap .section .caja .info {
@@ -265,7 +262,7 @@ body .wrap .section .caja .info {
       -ms-flex-flow: column wrap;
           flex-flow: column wrap;
   padding: 20px;
-  width: 40%;
+  width: 46%;
 }
 
 body .wrap .section .caja .info .rate {
@@ -517,6 +514,7 @@ body .wrap .section .btn:hover {
   border: 2px solid #f7931e;
   -webkit-box-shadow: 1px 1px 5px #bbb, 1px 2px 6px #bbb, 1px 3px 7px #bbb;
           box-shadow: 1px 1px 5px #bbb, 1px 2px 6px #bbb, 1px 3px 7px #bbb;
+  color: #f7931e;
 }
 
 body .wrap #section-cat {
@@ -557,33 +555,15 @@ body .wrap #section-cat .cat-grid .cat-box .cat-img {
   margin: 0px auto;
 }
 
-body .wrap #section-cat .cat-grid .cat-box .cat-img .img-one {
-  width: 152%;
-  margin-left: -88px;
-  margin-top: 0px;
-}
-
-body .wrap #section-cat .cat-grid .cat-box .cat-img .img-two {
-  width: 155%;
-  margin-left: -58px;
-  margin-top: 0px;
-}
-
-body .wrap #section-cat .cat-grid .cat-box .cat-img .img-three {
-  width: 150%;
-  margin-left: -44px;
-  margin-top: 0px;
-}
-
-body .wrap #section-cat .cat-grid .cat-box .cat-img .img-four {
-  width: 150%;
-  margin-left: -28px;
-  margin-top: 2px;
+body .wrap #section-cat .cat-grid .cat-box .cat-img .img-cat {
+  width: 104%;
+  margin-top: -7px;
+  margin-left: -5px;
 }
 
 body .wrap #section-cat .cat-grid .cat-box .cat-title {
   margin-top: 20px;
-  margin-bottom: 1 0px;
+  margin-bottom: 10px;
   font-family: "montserrat-bold";
   letter-spacing: 1px;
   font-size: 1.2rem;

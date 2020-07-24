@@ -1,0 +1,286 @@
+$courgette: 'courgette';
+$m-regular:'montserrat-regular';
+$m-light:'montserrat-light';
+$m-bold:'montserrat-bold';
+$symbol:'web-symbols';
+$orange: #f7931e;
+$green: #253c08;
+$black: #555;
+
+$shadow:1px 1px 5px #ccc,
+1px 2px 5px #ccc,
+1px 3px 5px #ccc;
+$shadow-hover:1px 1px 5px #bbb,
+1px 2px 6px #bbb,
+1px 3px 7px #bbb;
+
+/* BREAKPOINTS */
+
+$x-large: 3300px;
+$large: 1250px;
+
+
+@media (min-width: $x-large){
+    body{
+        
+        #header {
+            border-bottom: 2px solid $black;
+
+            height: 140px;
+
+            #logo {
+                width: 30%;
+                padding-bottom: 4px;
+
+                img {
+                    display: flex;
+                    width: 7%;
+                }
+            }
+
+            #menu {
+                
+                border-bottom: 4px solid $black;
+                
+                ul{
+                    li{
+                        a{
+                            padding-right: 70px;
+                            padding-left: 70px;
+                            font-size: 3.1rem;
+                        }
+                    }
+                }
+            }
+
+            #icons{
+                a{
+                    font-size:3.1rem; 
+                }
+            }
+            #out {
+                font-size: 3.1rem;
+            }
+            
+        }
+        .wrap {
+                .section {
+                    .title {
+                        font-size: 5rem;
+                        padding-top: 7%;
+                    }
+                    .caja {
+                        .image{
+                            width: 45%;
+                            .image-one {
+                                display: flex;
+                                width: 100%;
+                            }
+                        }
+                        .info {
+                            
+                            padding: 3%;
+                            width: 45%;
+        
+                            .rate {
+                                display: flex;
+                                .my-rating{
+                                    display: none;
+                                }
+                                .my-rating-large{
+                                    display: flex;
+                                }
+        
+                                .user-fav {
+                                    margin-left: 50px;
+                                    font-size: 3rem;
+                                }
+                            }
+        
+                            .category {
+                                font-family: $courgette;
+                                font-size: 3rem;
+                                padding-top: 50px;
+                            }
+        
+                            h2 {
+                                font-size: 4rem;
+                            }
+        
+                            p {
+                                width: 90%;
+                                font-size: 4rem;
+                                margin-top: 60px;
+                                padding-bottom: 20px;
+                            }
+        
+                            .next {
+                                width: 200px;
+                                height: 200px;
+                                        
+                                a {
+                                    font-size: 5rem;
+                                    width: 25%;
+                                    color: $orange;
+                                }
+                            }
+        
+                            
+                        }
+        
+                    
+                    }
+                    .grid {
+
+                        margin-top: 150px;
+                        padding-bottom: 60px;
+        
+                        .caja-grid {
+                                    
+                            .info {
+                                display: flex;
+                                flex-flow: column wrap;
+                               
+                                width: 100%;
+        
+                                .title {
+                                        display: flex;    
+                                    .category-grid {
+                                        
+                                        font-family: $m-bold;
+                                        font-size: 2.2rem;
+                                        padding: 6%;
+                                        width: 76%;
+                                        text-align: left;
+                                        margin-left: 8px;
+                                    }
+        
+                                    .next {
+                                        width: 8%;
+                                        padding-top:5%;
+                                        
+                                        a {
+                                           font-size: 1.8rem;
+                                           width: 100%;
+                                           margin-top: -5px;
+                                        }
+                                    }
+                                }
+        
+                                .rate {
+                                    display: flex;
+                                    width: 90%;
+                                    margin-left: 8px;
+                                    
+                                    .my-rating-grid{
+                                        display: none;
+                                    }
+                                    .my-rating-grid-large{
+                                        display: flex;
+                                        padding: 6%;
+                                        
+                                    }
+                                    .user-fav {
+                                        font-size: 1.5rem;
+                                        padding: 6%;
+                                        padding-left: 0px;
+                                    }
+                                }
+                                
+                                p {
+                                    font-size: 2.5rem;
+                                    padding: 6%;
+                                    margin-top: 10px;
+                                    padding-bottom: 30px;
+                                    width: 89%;
+                                }
+                            }
+                        }
+        
+                        
+        
+                    }
+                    .btn {
+                        width: 40%;
+                        font-size: 3rem;
+                        margin-top: 4%;
+                    }
+                }
+                #section-cat {
+                    .cat-grid {
+                        .cat-box {
+                            
+                            .cat-img {
+                                width: 360px;
+                                height: 360px;
+                                border-radius: 299px;
+                                overflow: hidden;
+                                margin: 0px auto;
+        
+                                .img-cat {
+                                    width: 104%;
+                                    margin-top: -7px;
+                                    margin-left: -5px;
+                                }
+                            }
+        
+                            .cat-title {
+                                margin-top: 40px;
+                                font-size: 2.4rem;
+                            }
+        
+                            .cat-description {
+                                font-size: 2rem;
+                                padding-bottom: 80px;
+                            }
+                        }
+                    }
+                }
+        }
+        .footer{
+            display: flex;
+            flex-flow: row wrap;
+            width: 100%;
+            margin:0px auto;
+            height: auto;
+            padding: 40px 0px;
+            
+            
+            .logo-foot{
+                
+                width: 50%;
+                display: flex;
+                
+                img{
+                    padding: 40px;
+                    margin: 0px auto;
+                    width: 900px;
+                    height: auto;
+                }
+            }
+    
+            .social{
+                display: flex;
+                width: 40%;
+                padding: 40px;
+                ul{
+                    display: flex;
+                    li{
+                        display: flex;
+                        list-style:none;
+                        margin: 70px;
+                        a{
+                            
+                            font-size: 8rem;
+                            text-decoration: none;
+                            transition: all 500ms;
+                            height: 100%;
+                        }
+                        
+                    }
+                    
+                }
+            }
+        }
+    }
+}

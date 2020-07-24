@@ -1,0 +1,229 @@
+/* BREAKPOINTS */
+@media (min-width: 3300px) {
+  body #header {
+    border-bottom: 2px solid #555;
+    height: 140px;
+  }
+  body #header #logo {
+    width: 30%;
+    padding-bottom: 4px;
+  }
+  body #header #logo img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 7%;
+  }
+  body #header #menu {
+    border-bottom: 4px solid #555;
+  }
+  body #header #menu ul li a {
+    padding-right: 70px;
+    padding-left: 70px;
+    font-size: 3.1rem;
+  }
+  body #header #icons a {
+    font-size: 3.1rem;
+  }
+  body #header #out {
+    font-size: 3.1rem;
+  }
+  body .wrap .section .title {
+    font-size: 5rem;
+    padding-top: 7%;
+  }
+  body .wrap .section .caja .image {
+    width: 45%;
+  }
+  body .wrap .section .caja .image .image-one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  body .wrap .section .caja .info {
+    padding: 3%;
+    width: 45%;
+  }
+  body .wrap .section .caja .info .rate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .wrap .section .caja .info .rate .my-rating {
+    display: none;
+  }
+  body .wrap .section .caja .info .rate .my-rating-large {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .wrap .section .caja .info .rate .user-fav {
+    margin-left: 50px;
+    font-size: 3rem;
+  }
+  body .wrap .section .caja .info .category {
+    font-family: "courgette";
+    font-size: 3rem;
+    padding-top: 50px;
+  }
+  body .wrap .section .caja .info h2 {
+    font-size: 4rem;
+  }
+  body .wrap .section .caja .info p {
+    width: 90%;
+    font-size: 4rem;
+    margin-top: 60px;
+    padding-bottom: 20px;
+  }
+  body .wrap .section .caja .info .next {
+    width: 200px;
+    height: 200px;
+  }
+  body .wrap .section .caja .info .next a {
+    font-size: 5rem;
+    width: 25%;
+    color: #f7931e;
+  }
+  body .wrap .section .grid {
+    margin-top: 150px;
+    padding-bottom: 60px;
+  }
+  body .wrap .section .grid .caja-grid .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    width: 100%;
+  }
+  body .wrap .section .grid .caja-grid .info .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .wrap .section .grid .caja-grid .info .title .category-grid {
+    font-family: "montserrat-bold";
+    font-size: 2.2rem;
+    padding: 6%;
+    width: 76%;
+    text-align: left;
+    margin-left: 8px;
+  }
+  body .wrap .section .grid .caja-grid .info .title .next {
+    width: 8%;
+    padding-top: 5%;
+  }
+  body .wrap .section .grid .caja-grid .info .title .next a {
+    font-size: 1.8rem;
+    width: 100%;
+    margin-top: -5px;
+  }
+  body .wrap .section .grid .caja-grid .info .rate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    margin-left: 8px;
+  }
+  body .wrap .section .grid .caja-grid .info .rate .my-rating-grid {
+    display: none;
+  }
+  body .wrap .section .grid .caja-grid .info .rate .my-rating-grid-large {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 6%;
+  }
+  body .wrap .section .grid .caja-grid .info .rate .user-fav {
+    font-size: 1.5rem;
+    padding: 6%;
+    padding-left: 0px;
+  }
+  body .wrap .section .grid .caja-grid .info p {
+    font-size: 2.5rem;
+    padding: 6%;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    width: 89%;
+  }
+  body .wrap .section .btn {
+    width: 40%;
+    font-size: 3rem;
+    margin-top: 4%;
+  }
+  body .wrap #section-cat .cat-grid .cat-box .cat-img {
+    width: 360px;
+    height: 360px;
+    border-radius: 299px;
+    overflow: hidden;
+    margin: 0px auto;
+  }
+  body .wrap #section-cat .cat-grid .cat-box .cat-img .img-cat {
+    width: 104%;
+    margin-top: -7px;
+    margin-left: -5px;
+  }
+  body .wrap #section-cat .cat-grid .cat-box .cat-title {
+    margin-top: 40px;
+    font-size: 2.4rem;
+  }
+  body .wrap #section-cat .cat-grid .cat-box .cat-description {
+    font-size: 2rem;
+    padding-bottom: 80px;
+  }
+  body .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    width: 100%;
+    margin: 0px auto;
+    height: auto;
+    padding: 40px 0px;
+  }
+  body .footer .logo-foot {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .footer .logo-foot img {
+    padding: 40px;
+    margin: 0px auto;
+    width: 900px;
+    height: auto;
+  }
+  body .footer .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 40%;
+    padding: 40px;
+  }
+  body .footer .social ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body .footer .social ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin: 70px;
+  }
+  body .footer .social ul li a {
+    font-size: 8rem;
+    text-decoration: none;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=mediaqueries.css.map */
